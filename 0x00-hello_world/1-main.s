@@ -2,7 +2,7 @@
 	.text
 	.section	.rodata
 .LC0:
-	.string	"task 1!"
+	.string	"task 1!\n"
 	.text
 	.globl	main
 	.type	main, @function
