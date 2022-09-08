@@ -16,7 +16,7 @@ int main(void)
 
 {
 
-		printf("task 1!\n");
+		puts("task 1!\n");
 
 			return (0);
 
