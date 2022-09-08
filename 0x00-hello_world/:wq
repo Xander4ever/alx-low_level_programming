@@ -1,9 +1,0 @@
-/* this is a comment*/
-#include <stdio.h>
-main()
-{
-	printf(
-			"This is my first c Programming.\n"
-	     );
-	return (0);
-}
