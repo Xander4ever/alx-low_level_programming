@@ -1,11 +1,10 @@
-#include <main.h>
-/*
- *
- *  * main - entry point
- *
- *  * Description: program that prints _putchar
- *
- *  * Return: 0
+#include "main.h"
+
+
+
+/**
+ *  * main - check the code
+ *    * Return: Always 0.
  */
 
 int main(void)
