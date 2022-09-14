@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 #include <stdlib.h>
-
+j
 #include <time.h>
 
-/*
- *  * main - entry point
- *   * Description: assigns random number to n each time n it's executed
- *    * Return: 0
- */
+/* *
+ * main - entry point
+ *
+ * Description - assigns random number to n each time n it's executed
+ *
+ * Return - 0 (success)
+*/
 
 int main(void)
-
 {
 	int n;
 
