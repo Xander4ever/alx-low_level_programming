@@ -5,9 +5,18 @@
 */
 void print_line(int n)
 {
-	int times = n;
+	int co;
 
-	for (times = n; times > 0; times--)
-		_putchar('_');
+	if (n <= 0)
+	{
 		_putchar('\n');
+	}
+	else
+	{
+		for (co = 1; co <= n; co++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
+	}
 }
