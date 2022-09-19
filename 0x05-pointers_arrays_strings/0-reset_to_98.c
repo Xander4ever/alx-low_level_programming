@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * reset_to_98 - Takes a pointer to an int as parameter, updates the value
@@ -5,7 +6,14 @@
 * @n: Pointer argument passed to function.
 * Return: 0
 */
-void reset_to_98(int *n)
+int main(void)
 {
-	*n = 98;
+    int n;
+
+    	n = 402;
+    	printf("n=%d\n", n);
+    	reset_to_98(&n);
+	n=98;
+	printf("n=%d\n", n);
+        return (0);
 }
