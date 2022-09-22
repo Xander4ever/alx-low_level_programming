@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 
 
@@ -34,7 +34,7 @@ int main(void)
 		     *
 		     *                      */
 
-		    *(p + 5) = 98;
+ 					*(p + 5) = 98  ;
 
 		      /* ...so that this prints 98\n */
 
