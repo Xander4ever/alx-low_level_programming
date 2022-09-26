@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 /**
 * _memset - Entry point
 * Description - A function that fills memory with a constant byte
